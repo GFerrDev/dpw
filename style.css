@@ -1,0 +1,31 @@
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Indie Flower;
+    background: linear-gradient(to right, #a52a2a, #dbe913);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+p{
+    font-weight: bolder;
+}
+
+.d{
+    float: inline-start;
+}
+
+.l{
+    float: inline-end;
+}
+
+img {
+    max-width: 90vw;
+    max-height: 75vh;
+    transform: translateX(-50%);
+    margin-left: 50vw;
+}

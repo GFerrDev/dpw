@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document1</title>
+</head>
+
+<body>
+
+    <div class="formulario">
+        <p class="d">LOGAN TU ACHA ESSE SER TEM IDADE PRA NOS VER SEM A MAMÃE</p>
+        <P class="l">DUVIDO</P>
+
+        <img src="https://cinebuzz.uol.com.br/media/uploads/shawn_levy_diretor_de_deadpool_3_explicou_o_que_o_levou_a_escolher_o_traje_classico_do_wolverine_para_o_filme.jpg"
+            alt="">
+        <h1>verificação de idade</h1>
+        <p>por favor insira sua idade</p>
+        <input type="number" name="" id="idadeInput">
+        <button onclick="verificarIdade()">Verificar</button>
+
+    </div>
+
+    <script>
+        function verificarIdade() {
+            var idade = parseInt(document.getElementById('idadeInput').value)
+
+            if (idade >= 18) {
+                window.location.href = 'maior.html';
+            } else {
+                window.location.href = 'menor.html';
+            }
+        }
+    </script>
+
+</body>
+
+</html>
