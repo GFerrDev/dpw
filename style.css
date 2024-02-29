@@ -29,3 +29,15 @@ img {
     transform: translateX(-50%);
     margin-left: 50vw;
 }
+
+input {
+    border-radius: 15px;
+}
+
+button{
+    color: #dbe913;
+    background: #a52a2a;
+    border: solid 5px #dbe913;
+    border-radius: 15px;
+    cursor: pointer;
+}
