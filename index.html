@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/Deadpool-512.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
@@ -28,13 +29,9 @@
 
     <script>
         function verificarIdade() {
-            var idade = parseInt(document.getElementById('idadeInput').value)
+            var idade = parseInt(document.getElementById('idadeInput').value);
 
-            if (idade >= 18) {
-                window.location.href = 'maior.html';
-            } else {
-                window.location.href = 'menor.html';
-            }
+            idade >=18 ? window.location.href = 'maior.html' : window.location.href = 'menor.html';
         }
     </script>
 
